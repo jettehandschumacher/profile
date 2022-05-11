@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@100;300;400;700;800&display=swap');
+body {
+  background-image: url("images/profile.jpg");
+  background-size: cover;
+  height: 100%;
+  font-family: 'Raleway';
+  font-weight: 300;
+  color: black;
+  margin-bottom: 650;
+}
+
+h1 {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 150;
+  color: #ff4800;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  letter-spacing: 2px;
+
+
+
+}
+
+h2 {
+  font-family: 'Anton';
+  font-weight: 800;
+  font-size: 30;
+  color: rgb(92, 96, 99);
+  letter-spacing: 1.5px;
+
+}
+
+h3 {
+  font-family: 'Raleway';
+  color: #ff4800;
+  left: 70%;
+  position: fixed;
+  letter-spacing: 5px;
+}
+
+strong{
+  font-family: 'Raleway';
+  color: #ff4800;
+
+}
+
+.card-white {
+  background-color: white;
+  opacity: 0.9;
+  width: 250px;
+  margin-left: 5%;
+  margin: 100;
+  text-align: center;
+  padding: 24px 24px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ff4800
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.icon-social {
+  font-size: 30px;
+  color: #ff4800
+}
+
+.tablink {
+
+  display: h1;
+  background-color: none;
+  font-size: 150;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 150;
+  color: #ff4800;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  letter-spacing: 2px;
+
+}
+
+.tablink :visited{
+  text-decoration: none;
+  color: #ff4800;
+}
+
+.tablink :hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in;
+  text-shadow: -1px 0 #ff4800, 0 1px #ff4800, 1px 0 #ff4800, 0 -1px #ff4800;
+
+}
